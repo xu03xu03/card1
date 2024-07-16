@@ -151,3 +151,13 @@ h1{
   border-radius: 5px;
   cursor: pointer;/* 游標樣式 */
 }
+ /* 不能選擇的相同按鈕樣式 */
+.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+/* 被選擇的按鈕樣式 */
+.selected-button {
+  background-color: #ecd4a8; /* 選擇後按鈕的背景顏色 */
+  color: white;
+}
